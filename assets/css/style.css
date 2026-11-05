@@ -150,6 +150,7 @@ h1 span {
 .light-city .container {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
 }
 .light-city .left,
 .light-city .right {
@@ -191,4 +192,70 @@ h1 span {
 .light-city .right img {
   width: 100%;
   height: 200px;
+}
+.les-immanquables .container {
+  display: flex;
+  gap: 20px;
+}
+.les-immanquables h3 {
+  font-size: 24px;
+  font-family: "TS-Med", sans-serif;
+  margin-bottom: 30px;
+  margin-left: 0;
+  color: #000000;
+  text-align: left;
+}
+.les-immanquables a {
+  font-family: "TS-Reg", sans-serif;
+  font-size: 16px;
+  color: #545454;
+  margin-top: 15px;
+  display: block;
+}
+.les-immanquables p {
+  font-family: Georgia, sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.les-immanquables .left {
+  flex: 0 0 200px;
+  justify-content: space-between;
+}
+.cards-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  max-width: 800px;
+}
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.card {
+  position: relative;
+  display: inline-block;
+}
+.favorite-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .badge {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.card .badge img {
+  width: 30px;
+  height: auto;
 }
